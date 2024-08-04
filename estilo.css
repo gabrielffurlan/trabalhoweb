@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+
+}
+
+.menu {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    background-color: red;
+    justify-content: center;
+    /*gap: 20px;*/
+}
+
+.principal{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify center;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: red;
+    color: white;
+    text-align: right;
+    font-size: small;
+    padding-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+    color: blue;
+}
+
+a,
+a:link {
+    text-decoration: none;
+    padding: 10px 16px;
+    border: solid blue 1px;
+}
+
+li{
+    float: left;
+}
