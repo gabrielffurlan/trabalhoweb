@@ -47,6 +47,10 @@ footer{
     width: 100%;
 }
 
+.foto{
+    max-height: 300px;
+}
+
 .texto{
     color:#0B1A2C;
 }
